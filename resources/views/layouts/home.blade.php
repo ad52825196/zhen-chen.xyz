@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="author" content="Zhen Chen" />
-    <meta name="keywords" content="{{ $keywords }}" />
+    <meta name="keywords" content="@yield('keywords')" />
 
-    <title>{{ $title }}</title>
+    <title>@yield('title')</title>
 
-    <link rel="canonical" href="{{ $canonical }}" />
-
+    <link rel="canonical" href="@yield('canonical')" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -25,5 +24,15 @@
 </head>
 <body>
     @include('analytics')
+
+    @yield('body')
+
+    @include('layouts.footer')
+
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    @yield('foot')
 </body>
 </html>

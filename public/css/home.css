@@ -1,0 +1,64 @@
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.item {
+    width: 12.28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    word-break: break-all;
+    word-wrap: break-word;
+    border-radius: 10px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin: 1%;
+}
+
+#ss {
+    background-image: url('/images/ss.png');
+}
+
+#todo {
+    background-image: url('/images/todo.png');
+}
+
+#cash {
+    background-image: url('/images/cash.png');
+}
+
+#coming {
+    background-image: url('/images/coming.png');
+}
