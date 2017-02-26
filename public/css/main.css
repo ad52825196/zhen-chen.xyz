@@ -8,6 +8,98 @@ a:focus {
     cursor: pointer;
 }
 
+/* link colour transition */
+a,
+a:focus {
+    color: #1986e6;
+}
+
+a:hover,
+a:active {
+    color: #666666;
+}
+
+a,
+.social-icon .fa,
+#to-top {
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+/* link shadow */
+a:hover,
+a:active {
+    text-shadow: 1px 1px #efefef, 2px 2px #cccccc;
+}
+
+.navbar a:hover,
+.navbar a:active,
+footer a:hover,
+footer a:active {
+    text-shadow: none;
+}
+
+/* to top button */
+#to-top {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #3399ff;
+}
+
+#to-top:hover {
+    opacity: 1;
+}
+
+#to-top span {
+    color: #ffffff;
+    width: 40px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#to-top.affix {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+#to-top.affix-bottom {
+    position: absolute;
+    right: 40px;
+}
+
+/* fixed navbar */
+body {
+    padding-top: 80px;
+}
+
+/* display dropdown menu when hovering */
+@media only screen and (min-width: 800px) {
+    /* for desktop */
+    .navbar-nav > li:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* announcement */
+.alert {
+    border-style: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    position: relative;
+    top: -30px;
+}
+
+@media only screen and (max-width: 800px) {
+    /* for small screen */
+    .alert {
+        font-size: 12px;
+    }
+}
+
 /* sticky footer */
 html {
     position: relative;
