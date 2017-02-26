@@ -23,9 +23,11 @@
     @yield('head')
 </head>
 <body>
-    @include('analytics')
+    @include('layouts.analytics')
 
+    <div id="body">
     @yield('body')
+    </div>
 
     @include('layouts.footer')
 

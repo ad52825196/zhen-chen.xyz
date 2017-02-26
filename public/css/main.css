@@ -1,10 +1,11 @@
-/* no outline or underline on links*/
+/* no outline or underline on links */
 a,
 a:hover,
 a:active,
 a:focus {
     outline: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* sticky footer */
@@ -15,8 +16,7 @@ html {
 
 /* footer */
 footer {
-    border-top: 1px solid #e5e5e5;
-    background-color: #f2f2f2;
+    background-color: #03a9f4;
     padding: 20px 40px;
     margin-top: 20px;
     text-align: left;
@@ -55,4 +55,9 @@ footer ul {
 
 .social-icon .fa:hover {
     color: #000000;
+}
+
+/* uppercase */
+.uppercase {
+    text-transform: uppercase;
 }
