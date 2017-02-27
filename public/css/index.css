@@ -48,6 +48,7 @@ h3 {
     /* for tablet and small screen */
     .index-item {
         width: 90%;
+        float: none;
         padding-left: 30%;
         padding-top: 10%;
         padding-bottom: 10%;
@@ -101,7 +102,8 @@ h3 {
     }
 }
 
-body, footer {
+body,
+footer {
     background-color: #141414;
 }
 
@@ -117,6 +119,13 @@ a:hover,
 a:active {
     color: #ffffff;
     text-shadow: none;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bg-red {
