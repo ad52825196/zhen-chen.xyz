@@ -1,13 +1,25 @@
 <footer>
     <p class="text-muted">
-    Powered by <a href="https://laravel.com/">Laravel</a>, <a href="https://www.cloudflare.com/">CloudFlare</a>, <a href="https://m.do.co/c/abfc6e767656">DigitalOcean</a>
-    Copyright <span class="fa fa-copyright"></span>
+    Page loaded at:
     <script>
-    var s = 2013, myDate = new Date(), t = myDate.getFullYear();
+    var myDate = new Date();
+    document.write(myDate.toLocaleTimeString());
+    </script>
+    Powered by
+    <a href="https://laravel.com/">Laravel</a>,
+    <a href="https://www.cloudflare.com/">CloudFlare</a>,
+    <a href="https://m.do.co/c/abfc6e767656">DigitalOcean</a>
+    Copyright
+    <span class="fa fa-copyright"></span>
+    <script>
+    var s = 2013, t = myDate.getFullYear();
     if (t > s) { document.write(s, " - ", t); } else { document.write(s); }
     </script>
     <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
-    Made by <a href="https://zhen-chen.com/">Zhen Chen</a> <a href="https://zhen-chen.xyz">彩虹工作室</a>
+    Made by
+    <a href="https://zhen-chen.com/">Zhen Chen</a>
+    <span class="fa fa-heart"></span>
+    <a href="https://zhen-chen.xyz">彩虹工作室</a>
     </p>
 
     <ul class="social-icon flat-list">
