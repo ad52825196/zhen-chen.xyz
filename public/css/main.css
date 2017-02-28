@@ -46,6 +46,7 @@ footer a:active {
     cursor: pointer;
     opacity: 0.8;
     background-color: #3399ff;
+    color: #ffffff;
 }
 
 #to-top:hover {
@@ -53,7 +54,6 @@ footer a:active {
 }
 
 #to-top span {
-    color: #ffffff;
     width: 40px;
     text-align: center;
     margin-top: 12px;
@@ -75,28 +75,17 @@ body {
     padding-top: 80px;
 }
 
+/* navbar colour */
+.navbar {
+    background-color: #03a9f4;
+    color: #ffffff;
+}
+
 /* display dropdown menu when hovering */
 @media only screen and (min-width: 800px) {
     /* for desktop */
     .navbar-nav > li:hover .dropdown-menu {
         display: block;
-    }
-}
-
-/* announcement */
-.alert {
-    border-style: none;
-    border-radius: 0px;
-    margin-bottom: 0px;
-    padding: 10px;
-    position: relative;
-    top: -30px;
-}
-
-@media only screen and (max-width: 800px) {
-    /* for small screen */
-    .alert {
-        font-size: 12px;
     }
 }
 
