@@ -19,7 +19,7 @@
     Made by
     <a href="https://zhen-chen.com/">Zhen Chen</a>
     <span class="fa fa-heart"></span>
-    <a href="https://zhen-chen.xyz">彩虹工作室</a>
+    <a href="https://zhen-chen.xyz">Rainbow Studio</a>
     </p>
 
     <ul class="social-icon flat-list">
