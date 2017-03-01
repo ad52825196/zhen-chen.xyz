@@ -29,7 +29,7 @@ class HomeController extends Controller
         $data['pageIdentifier'] = 'index';
 
         if ($this -> isAjax) {
-            return handle('index', $data);
+            return $this -> handle('index', $data);
         }
         return view('index', $data);
     }
