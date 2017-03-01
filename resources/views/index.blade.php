@@ -1,11 +1,5 @@
 @extends('layouts.home')
 
-@section('keywords', '彩虹工作室, 飞越彩虹, Rainbow Studio, Zhen Chen')
-
-@section('title', '彩虹工作室 | Rainbow Studio')
-
-@section('canonical', 'https://zhen-chen.xyz/')
-
 @section('head')
 <link rel="stylesheet" href="/css/index.css" />
 @stop
