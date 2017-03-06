@@ -129,29 +129,29 @@ h3 {
 }
 
 .bg-red {
-    background-color: darkred;
+    background-color: #cc0000;
 }
 
 .bg-orange {
-    background-color: chocolate;
+    background-color: #df7020;
 }
 
 .bg-yellow {
-    background-color: darkgoldenrod;
+    background-color: #d99f0d;
 }
 
 .bg-green {
-    background-color: forestgreen;
+    background-color: #219050;
 }
 
 .bg-cyan {
-    background-color: darkcyan;
+    background-color: #009999;
 }
 
 .bg-blue {
-    background-color: royalblue;
+    background-color: #284cb8;
 }
 
 .bg-purple {
-    background-color: rebeccapurple;
+    background-color: #6629a3;
 }
