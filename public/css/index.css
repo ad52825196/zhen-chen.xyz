@@ -111,14 +111,27 @@ body {
     padding-top: 0px;
 }
 
+.social-icon .fa {
+    color: #4d4d4d;
+}
+
 .social-icon .fa:hover {
     color: #ffffff;
 }
 
 a:hover,
 a:active {
-    color: #ffffff;
     text-shadow: none;
+}
+
+footer a,
+footer a:focus {
+    color: #1986e6;
+}
+
+footer a:hover,
+footer a:active {
+    color: #ffffff;
 }
 
 h1,
