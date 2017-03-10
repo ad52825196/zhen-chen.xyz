@@ -122,6 +122,7 @@ body {
 
 a:hover,
 a:active {
+    color: #ffffff;
     text-shadow: none;
 }
 
