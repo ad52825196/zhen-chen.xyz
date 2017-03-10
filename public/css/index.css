@@ -120,9 +120,15 @@ body {
     color: #ffffff;
 }
 
+a,
+a:hover,
+a:active,
+a:focus {
+    color: #ffffff;
+}
+
 a:hover,
 a:active {
-    color: #ffffff;
     text-shadow: none;
 }
 
