@@ -5,10 +5,3 @@ $(document.links).filter(function() {
 
 // leave space for footer
 $('body')[0].style.paddingBottom = $('footer').outerHeight(true) + 'px';
-
-// fade in index-item
-$(document).ready(function() {
-    $('#body .index-item').each(function(index) {
-        $(this).delay(index * 500).fadeIn(500);
-    });
-});

@@ -63,3 +63,14 @@
     </a>
 </main>
 @stop
+
+@section('foot')
+<script>
+// fade in index-item
+$(document).ready(function() {
+    $('#body .index-item').each(function(index) {
+        $(this).delay(index * 500).fadeIn(500);
+    });
+});
+</script>
+@stop
