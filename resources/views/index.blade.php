@@ -10,7 +10,7 @@
         <div class="index-item bg-red" id="ss">
             <h2>彩虹影梭</h2>
             <h2>Shadowsocks</h2>
-            <h3 class="uppercase">ss.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">ss.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -18,7 +18,7 @@
         <div class="index-item bg-orange" id="todo">
             <h2>彩虹清单</h2>
             <h2>TodoList</h2>
-            <h3 class="uppercase">todo.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">todo.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -26,7 +26,7 @@
         <div class="index-item bg-yellow" id="cash">
             <h2>彩虹记账</h2>
             <h2>Cashflow</h2>
-            <h3 class="uppercase">cash.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">cash.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -34,7 +34,7 @@
         <div class="index-item bg-green" id="coming">
             <h2>即将开坑</h2>
             <h2>Coming</h2>
-            <h3 class="uppercase">??.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">??.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -42,7 +42,7 @@
         <div class="index-item bg-cyan" id="coming">
             <h2>即将开坑</h2>
             <h2>Coming</h2>
-            <h3 class="uppercase">??.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">??.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -50,7 +50,7 @@
         <div class="index-item bg-blue" id="coming">
             <h2>即将开坑</h2>
             <h2>Coming</h2>
-            <h3 class="uppercase">??.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">??.zhen-chen.xyz</h3>
         </div>
     </a>
 
@@ -58,7 +58,7 @@
         <div class="index-item bg-purple" id="coming">
             <h2>即将开坑</h2>
             <h2>Coming</h2>
-            <h3 class="uppercase">??.zhen-chen.xyz</h3>
+            <h3 class="text-uppercase">??.zhen-chen.xyz</h3>
         </div>
     </a>
 </main>
