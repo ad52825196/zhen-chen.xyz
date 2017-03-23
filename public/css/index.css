@@ -41,6 +41,10 @@ h3 {
     background-image: url('/images/cash.png');
 }
 
+#han {
+    background-image: url('/images/han.png');
+}
+
 #coming {
     background-image: url('/images/coming.png');
 }
@@ -79,6 +83,10 @@ h3 {
 
     #cash {
         background-image: url('/images/cash-m.png');
+    }
+
+    #han {
+        background-image: url('/images/han-m.png');
     }
 
     #coming {

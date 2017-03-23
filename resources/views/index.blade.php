@@ -31,10 +31,10 @@
     </a>
 
     <a>
-        <div class="index-item bg-green" id="coming">
-            <h2>即将开坑</h2>
-            <h2>Coming</h2>
-            <h3 class="text-uppercase">??.zhen-chen.xyz</h3>
+        <div class="index-item bg-green" id="han">
+            <h2>彩虹汉化</h2>
+            <h2>Localization</h2>
+            <h3 class="text-uppercase">han.zhen-chen.xyz</h3>
         </div>
     </a>
 
