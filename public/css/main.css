@@ -16,7 +16,7 @@ a:focus {
 
 a:hover,
 a:active {
-    color: #666666;
+    color: #ff8000;
 }
 
 footer a,
@@ -41,16 +41,26 @@ a,
 }
 
 /* link shadow */
-a:hover,
-a:active {
-    text-shadow: 1px 1px #efefef, 2px 2px #cccccc;
+@media only screen and (min-width: 768px) {
+    /* for desktop */
+    a:hover,
+    a:active {
+        text-shadow: 1px 1px #efefef, 2px 2px #cccccc;
+    }
 }
 
+.btn:hover,
+.btn:active,
 .navbar a:hover,
 .navbar a:active,
 footer a:hover,
 footer a:active {
     text-shadow: none;
+}
+
+/* responsive image size */
+img {
+    max-width: 100%;
 }
 
 /* to top button */
@@ -97,7 +107,7 @@ nav ul li:active {
 }
 
 /* display dropdown menu when hovering */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     /* for desktop */
     .navbar-nav > li:hover .dropdown-menu {
         display: block;
